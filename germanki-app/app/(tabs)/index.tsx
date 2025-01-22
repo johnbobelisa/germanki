@@ -13,7 +13,6 @@ export default function Tab() {
 
   return (
     <View style={styles.container}>
-      <Text>Home</Text>
       <Button 
         label="Sign Out" 
         onPress={() => {
