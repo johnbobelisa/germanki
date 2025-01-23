@@ -16,9 +16,7 @@ export default function Tab() {
       <Button 
         label="Sign Out" 
         onPress={() => {
-          // Remove the auth flag
           global.localStorage.removeItem('isAuthenticated');
-          // Navigate back to login
           router.replace('/login');
         }}
         style={{ backgroundColor: 'black' }}
