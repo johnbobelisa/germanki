@@ -1,3 +1,5 @@
+// app/(tabs)/decks.tsx
+
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { Tabs } from 'expo-router';
 

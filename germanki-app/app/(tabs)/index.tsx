@@ -13,13 +13,10 @@ export default function Tab() {
 
   return (
     <View style={styles.container}>
-      <Text>Home</Text>
       <Button 
         label="Sign Out" 
         onPress={() => {
-          // Remove the auth flag
           global.localStorage.removeItem('isAuthenticated');
-          // Navigate back to login
           router.replace('/login');
         }}
         style={{ backgroundColor: 'black' }}
